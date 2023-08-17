@@ -8,7 +8,7 @@ import modal
 
 os.environ["OPENAI_API_KEY"] = ""
 
-class LOL:
+class training:
     
     
     def createVectorIndex(path):
