@@ -1,7 +1,7 @@
 import tkinter
 import customtkinter
 from PIL import ImageTk,Image
-from main import LOL
+from main import training
 
 customtkinter.set_appearance_mode("System")  
 customtkinter.set_default_color_theme("green") 
@@ -21,7 +21,7 @@ def button_function():
     
     entry2.delete(0, len(hehe))
     
-    ai_answer = LOL.answerMe(hehe)
+    ai_answer = training.answerMe(hehe)
 
     l2.insert("0.0", text=ai_answer)
     
